@@ -1,14 +1,19 @@
 header {
-    background-color: #d15c0e;
+    background-color:  rgba(9, 32, 58, 0.829);
     color: white;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(31, 5, 32, 0.1);
-    border-radius: 2rem;
+    box-shadow: 0 4px 6px white;
+    border-radius: 1rem ;
+    height: 5rem;
+
 }
 
 header h1 {
     margin: 0;
     font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #contador-productos {
@@ -16,4 +21,3 @@ header h1 {
     font-size: 1.2rem;
     color: #ecf0f1;
 }
-
